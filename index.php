@@ -12,7 +12,7 @@
       <section class="login">
         <img src="img.jpg"" class="login_logo">
         <h1 class="title_login">
-          Sales Sui
+          Sales Suit
         </h1>
         
         <label class="login_label">
@@ -21,6 +21,8 @@
         </label>
         
         <label class="login_label">
+          <span>Senha</span>
+          <input type="password" name="password" class="input">
         </label>
         
         <div class="login_icons">
@@ -33,8 +35,10 @@
         </label>
         
         <button type="button" class="login_button" disabled>
-          
-        </button>
+        
+      </button>
+      <a href="#" class="login_link"> Esqueceu a senha ?</a>
+      <a href="#" class="login_link">Criar conta</a>
       </section>
        
     </main>
